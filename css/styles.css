@@ -1,0 +1,257 @@
+/* *********************** HTML ELEMENTS *********************** */
+
+body {
+  margin: 0;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  color: #66BFBF;
+  font-size: 2em;
+}
+
+h3{
+  /*color: #206a5d;*/
+  color: #519898;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+h4{
+  color: #1f4068;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+  font-size: 1em;
+  color: #1f4068;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: 6px;
+  margin-bottom: 100px;
+  width: 4%;
+  color: #f0ece3;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+
+/* *********************** Caratteristichr Font*********************** */
+
+.titleSize{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #206a5d;
+}
+
+.subtitleSize{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #206a5d;
+  line-height: 2 auto auto auto;
+}
+
+.margin-left{
+  margin-left: 4px;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.roboto{
+font-family: 'Roboto', sans-serif;
+}
+
+.Calligraffitti{
+font-family: 'Calligraffitti', cursive;
+}
+
+.Montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.openSans{
+  font-family: 'Open Sans', sans-serif;
+}
+.center{
+  display: block;
+  margin: 0 auto;
+}
+
+.styleH2{
+  font-family: 'Roboto', sans-serif;
+  color: #1f4068;
+}
+
+.styleH3{
+  color: #1b1c25;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.noMargin{
+  margin: 0;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+/* *********************** Caratteristiche Container *********************** */
+
+.top-container{
+  position: relative;
+  background-color: #ebecf1;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.middle-container{
+  margin-top: 100px;
+}
+
+.bottom-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+
+/* *********************** Caratteristiche Immagini *********************** */
+
+
+.top-cloud{
+  position: absolute;
+  top: 4%;
+  right: 25%;
+  height: 80px;
+  width: 160px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 25%;
+  bottom : 37%;
+  height: 80px;
+  width: 160px;
+}
+
+
+
+.mountain{
+  position: relative;
+  top: 79px;
+}
+
+.programmer{
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.teamworker{
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.aroundia-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.solarys-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.ar-img{
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.celiaquick-article-img{
+  width: 50%;
+  height: 50%;
+  float:right;
+  margin-left: 30px;
+}
+
+.aroundia-article-img{
+  width: 50%;
+  height: 70%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* *********************** Stile Link *********************** */
+
+.footer-link{
+  padding: 20px 6px;
+  color: #11999E;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+/* *********************** Skill-Row Stile *********************** */
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile{
+  margin: 100px auto;
+}
+
+.contact-row{
+  margin-bottom: 100px;
+}
+
+/* *********************** Button Stile *********************** */
+
+.p-margin{
+  padding-top: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+
+}
+
+.btn:hover {
+  background: #519898;
+  text-decoration: none;
+}
